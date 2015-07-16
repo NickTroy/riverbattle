@@ -1,6 +1,19 @@
 class Player
 
-  def self.make_turn 
+  def make_turn 
+  end
+
+  def place_ships
+  end
+
+  def win_condition? field
+    !(field.include? 1)
+  end
+
+  def congratulate
+  end
+
+  def show_field field
   end
 
 end
