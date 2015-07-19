@@ -1,4 +1,4 @@
-require './game.rb'
+require_relative 'lib/nicktroyanov_riverbattle.rb'
 
 describe Game do
 

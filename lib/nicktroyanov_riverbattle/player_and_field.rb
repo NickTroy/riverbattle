@@ -12,7 +12,7 @@ class PlayerAndField
   end
 
   def player_make_turn oponent_field
-  	player.make_turn oponent_field
+  	player.make_turn oponent_field, field
   end
 
   def player_win_condition?

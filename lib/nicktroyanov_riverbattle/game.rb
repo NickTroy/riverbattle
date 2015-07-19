@@ -1,6 +1,3 @@
-require 'pry'
-require 'rspec'
-
 require_relative 'player.rb'
 require_relative 'human.rb'
 require_relative 'computer.rb'
