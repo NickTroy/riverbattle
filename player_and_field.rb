@@ -11,8 +11,8 @@ class PlayerAndField
   	player.place_ships field, number_of_ships
   end
 
-  def player_make_turn oponents_field
-  	player.make_turn oponents_field
+  def player_make_turn oponent_field
+  	player.make_turn oponent_field
   end
 
   def player_win_condition?
@@ -21,5 +21,9 @@ class PlayerAndField
 
   def player_congratulate
   	player.congratulate
+  end
+
+  def player_show_field oponent_field
+    player.show_field field, oponent_field
   end
 end

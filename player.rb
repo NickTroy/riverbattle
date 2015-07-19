@@ -13,7 +13,7 @@ class Player
   def congratulate
   end
 
-  def show_field field
+  def show_field field, oponent_field
   end
 
 end
