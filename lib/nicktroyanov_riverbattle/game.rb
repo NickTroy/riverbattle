@@ -8,13 +8,17 @@ class Game
   attr_accessor :player_and_field1, :player_and_field2
   
   def initialize
-  	puts <<-TEXT
+    system "clear"
+  	loop do 
+      puts <<-TEXT
+Hello! Riverbattle game has begun!!
+
 Choose whether you want to make turn first or second.
 If you want to be first, enter 1. Otherwise - enter 2.
 TEXT
-    loop do 
     	turn_position = gets.chomp.to_i
       unless [1,2].include? turn_position
+        system "clear"
         puts "incorrect position"
         redo
       end 
